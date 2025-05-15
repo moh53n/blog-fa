@@ -18,45 +18,58 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: بلاگ محسن طهماسبی
-email: moh53n@moh53n.net
+title: "بلاگ محسن طهماسبی"
+email: "moh53n@moh53n.net"
 description: >- # this means to ignore newlines until "baseurl:"
-  بلاگ فنی محسن طهماسبی، علاقه مند به امنیت سایبری، شبکه و هر چیزی درباره کامپیوتر ها
+  "بلاگ فنی محسن طهماسبی، علاقه مند به امنیت سایبری، شبکه و هر چیزی درباره کامپیوتر ها"
 baseurl: "/blog-fa" # the subpath of your site, e.g. /blog
 url: "https://moh53n.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: moh53n_fa
 github_username:  moh53n
 
-name: "محسن طهماسبی"
-show_date: true
-read_time: true
-
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 minimal_mistakes_skin: "dark"
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
 
-lang: fa-IR
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cach
+
+locale: "fa"
 rtl: true
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+author:
+  name             : "محسن طهماسبی"
+  avatar           : "/assets/img/me.jpg"
+  bio              : "علاقه مند به امنیت سایبری، شبکه و هر چیزی درباره کامپیوتر ها"
+  email            : "moh53n@moh53n.net"
+  links:
+    - label: "وب سایت"
+      icon: "fas fa-fw fa-link"
+      url: "https://moh53n.net"
+    - label: "توییتر"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/moh53n_fa"
+    - label: "گیت هاب"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/moh53n"
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: true
+

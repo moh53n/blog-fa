@@ -1,0 +1,19 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+$serif: "Vazirmatn", sans-serif;
+$sans-serif: "Vazirmatn", sans-serif;
+$sans-serif-narrow: "Vazirmatn", sans-serif;
+$monospace: "Vazirmatn", sans-serif;
+
+$global-font-family: "Vazirmatn", sans-serif;
+$header-font-family: "Vazirmatn", sans-serif;
+$caption-font-family: "Vazirmatn", sans-serif;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
