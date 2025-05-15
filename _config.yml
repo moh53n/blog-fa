@@ -27,8 +27,12 @@ url: "https://moh53n.net" # the base hostname & protocol for your site, e.g. htt
 twitter_username: moh53n_fa
 github_username:  moh53n
 
+name: "محسن طهماسبی"
+show_date: true
+read_time: true
+
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
