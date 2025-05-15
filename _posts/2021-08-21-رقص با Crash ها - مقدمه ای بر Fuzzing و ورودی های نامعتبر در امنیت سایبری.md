@@ -4,7 +4,7 @@ title:  "رقص با Crash ها: مقدمه ای بر Fuzzing و ورودی ها
 date:   2021-08-21 20:29:18 +0000
 categories: هک امنیت-سایبری fuzzing برنامه-نویسی
 ---
-|![تصویری از فازر AFL]({{ /assets/img/s2kyrkdablrx.png | relative_url }} )|
+|![تصویری از فازر AFL]({{ "/assets/img/s2kyrkdablrx.png" | relative_url }} )|
 |:--:|
 |*تصویری از فازر AFL*|
 
