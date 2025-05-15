@@ -4,6 +4,7 @@ title:  "رقص با Crash ها: مقدمه ای بر Fuzzing و ورودی ها
 date:   2021-08-21 20:29:18 +0000
 categories: هک امنیت-سایبری fuzzing برنامه-نویسی
 excerpt: فازینگ چیست و چرا ورودی ها نامعتبر در برنامه های کامپیوتری برای امنیت سایبری مهم هستند؟
+permalink: /dancing-with-crashes-introduction-to-fuzzing
 ---
 |![تصویری از فازر AFL]({{ "/assets/img/s2kyrkdablrx.png" | relative_url }} )|
 |:--:|
