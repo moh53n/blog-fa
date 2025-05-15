@@ -36,7 +36,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cach
+  - jekyll-include-cache
 
 locale: "fa"
 rtl: true
