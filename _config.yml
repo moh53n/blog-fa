@@ -28,9 +28,10 @@ twitter_username: moh53n_fa
 github_username:  moh53n
 
 # Build settings
-remote_theme: moh53n/hacker-rtl
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 lang: fa-IR
 
