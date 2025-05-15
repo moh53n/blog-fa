@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "رقص با Crash ها: مقدمه ای بر Fuzzing و ورودی های نامعتبر در امنیت سایبری"
 date:   2021-08-21 20:29:18 +0000
 categories: هک امنیت-سایبری fuzzing برنامه-نویسی
